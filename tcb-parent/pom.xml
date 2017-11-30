@@ -2,19 +2,21 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>tcb.login</groupId>
+  <groupId>tcb</groupId>
   <artifactId>tcb-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>tcb-parent</name>
   <url>http://maven.apache.org</url>
  
  
-  <!--  <modules>
-        <module>../cfs-common</module>
-    </modules> -->
-
+   <modules>
+   
+        <module>../tcb-login</module>
+        <module>../tcb-login-facade</module>
+   
+    </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
